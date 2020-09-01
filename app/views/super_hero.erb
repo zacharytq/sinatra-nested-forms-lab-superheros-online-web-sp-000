@@ -4,6 +4,7 @@
     <title>Superhero!</title>
   </head>
   <body>
+    <h1>Create a Team and Heroes!</h1>
     <form method="POST" action="/teams">
 
     <p><label for="team[name]"> Teams's Name: </label>
@@ -14,35 +15,35 @@
 
     <h3>Hero One:</h3>
     <p><label for="hero_name_1">Hero's Name: </label>
-    <input type="text" id="hero_name_1" name="team[heroes][][name]"></p>
+    <input type="text" id="member1_name" name="team[heroes][][name]"></p>
 
     <p><label for="hero_name_1">Hero's Power: </label>
-    <input type="text" id="hero_power_1" name="team[heroes][][power]"></p>
+    <input type="text" id="member1_power" name="team[heroes][][power]"></p>
 
     <p><label for="hero_bio_1">Hero's Biography: </label>
-    <input type="text" id="hero_bio_1" name="team[heroes][][bio]"></p>
+    <input type="text" id="member1_bio" name="team[heroes][][bio]"></p>
 
     <h3>Hero Two:</h3>
     <p><label for="hero_name_2">Hero's Name: </label>
-    <input type="text" id="hero_name_2" name="team[heroes][][name]"></p>
+    <input type="text" id="member2_name" name="team[heroes][][name]"></p>
 
     <p><label for="hero_name_2">Hero's Power: </label>
-    <input type="text" id="hero_power_2" name="team[heroes][][power]"></p>
+    <input type="text" id="member2_power" name="team[heroes][][power]"></p>
 
     <p><label for="hero_bio_2">Hero's Biography: </label>
-    <input type="text" id="hero_bio_2" name="team[heroes][][bio]"></p>
+    <input type="text" id="member2_bio" name="team[heroes][][bio]"></p>
 
     <h3>Hero Three:</h3>
     <p><label for="hero_name_3">Hero's Name: </label>
-    <input type="text" id="hero_name_3" name="team[heroes][][name]"></p>
+    <input type="text" id="member3_name" name="team[heroes][][name]"></p>
 
     <p><label for="hero_name_3">Hero's Power: </label>
-    <input type="text" id="hero_power_3" name="team[heroes][][power]"></p>
+    <input type="text" id="member3_power" name="team[heroes][][power]"></p>
 
     <p><label for="hero_bio_3">Hero's Biography: </label>
-    <input type="text" id="hero_bio_3" name="team[heroes][][bio]"></p>
+    <input type="text" id="member3_bio" name="team[heroes][][bio]"></p>
 
-    <input type="submit" value="Submit">
+    <button type="submit" value="submit" id="submit">Submit</button>
     </form>
   </body>
 </html>

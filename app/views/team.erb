@@ -1,3 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pirate!</title>
+  </head>
+  <body>
+    <p><%= @team_name %></p>
+    <p>Team Motto: <%= @team_motto%></p>
 
 
-
+    <p><% @heroes.each do |hero| %>
+      Hero Name: <%= hero.name %>
+      Hero Power: <%= hero.power %>
+      Hero Biography: <%= hero.bio %>
+    <% end %></p>
+  </body>
+</html>
